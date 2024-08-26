@@ -1,0 +1,498 @@
+/* Custom styles can be added here */
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+        }
+
+        /* Slanted bottom for hero section */
+        .slanted-bottom {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .slanted-bottom::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            background-color: #e0f2fe;
+            transform: skewY(-3deg);
+            transform-origin: top left;
+        }
+
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+            color: #fff;
+        }
+
+        .swiper-slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: brightness(0.6);
+        }
+
+/* Animation for hover effect */
+.transition-transform {
+    transition: transform 0.3s ease-in-out;
+  }
+
+  /* Animation for Tutor Images */
+@keyframes tutor-bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.tutor-card {
+    animation: tutor-bounce 2s infinite;
+    transition: none; /* Disable scale effect on hover */
+}
+/* Disable hover scaling globally */
+.hover\:scale-105:hover {
+    transform: none;
+}
+/* Keyframes for bounce animation */
+@keyframes tutor-bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Apply animation to tutor images */
+.animated-tutor {
+    animation: tutor-bounce 2s infinite;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Remove scale on hover */
+.animated-tutor:hover {
+    transform: none;
+}
+.whatsapp-logo {
+    width: 54px;
+    height: 32px;
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-logo:hover {
+    animation: bounce 0.6s infinite alternate;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+
+/* whatsApp animation */
+/* WhatsApp Logo Container */
+a#logo-animated {
+    position: relative;
+    display: grid;
+    width: 51px;
+    height: 40px;
+    transition: transform 0.3s ease;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* Wave Effect */
+#logo-animated::before,
+#logo-animated::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgba(37, 211, 102, 0.2);
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 0.3s ease;
+    animation: wave 2s infinite ease-out;
+    opacity: 0;
+}
+
+#logo-animated::after {
+    animation-delay: 1s;
+}
+
+/* Zoom-Out on Hover */
+#logo-animated:hover .whatsapp-logo {
+    transform: scale(0.9);
+}
+
+#logo-animated:hover::before,
+#logo-animated:hover::after {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.5);
+}
+
+/* Keyframes for Wave Effect */
+@keyframes wave {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.6;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(2);
+        opacity: 0;
+    }
+}
+
+   /* Sidebar styles */
+   #sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #ffffff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+    transition: left 0.3s ease;
+    z-index: 1000;
+}
+
+#sidebar.active {
+    left: 0;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 5rem 0 0 0;
+}
+
+#sidebar ul li {
+    border-top: 1px solid #eee;
+}
+#sidebar ul li:last-child{
+    border-bottom: 1px solid #eee;
+}
+
+#sidebar ul li a {
+    display: block;
+    padding: 16px;
+    color: #333;
+    text-decoration: none;
+}
+
+#sidebar ul li a:hover {
+    background-color: #f5f5f5;
+}
+
+.sidebar-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.sidebar-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+    }
+
+    .sidebar-toggle {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+/* General Styles for Board Members Section */
+.board-members {
+    padding: 4rem 0;
+    background-color: #f3f4f6;
+    text-align: center;
+}
+
+.board-members h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+.card {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+
+.board-members .card {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin: 0.5rem;
+}
+
+.board-members .card:hover {
+    transform: scale(1.05);
+}
+
+.board-members .card img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    filter: brightness(1.1);
+}
+
+.board-members .card h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.board-members .card p {
+    color: #4b5563;
+}
+
+/* Mobile View L */
+@media (min-width: 375px) and (max-width: 480px) {
+    .board-members .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .board-members .card {
+        padding: 1rem;
+    }
+
+    .board-members .card img {
+        width: 8rem;
+        height: 8rem;
+        transform: translateY(10px);
+        filter: brightness(1.1);
+    }
+
+    .board-members .card h3 {
+        font-size: 0.6rem;
+        font-weight: 900;
+    }
+
+    .board-members .card p {
+        font-size: 0.49rem;
+    }
+    /* heaging for sponsors */
+    .small{
+        font-size: 1.3rem;
+    }
+    /* footer */
+    p.footer{
+        font-size: 0.7rem;
+    }
+     /* about */
+     .pad {
+        margin: 3rem 3rem -37px 3rem;
+        text-align: justify;
+    }
+    /* tutors */
+    .shift {
+        margin: 1rem 1rem -23px 1rem;
+    }
+}
+
+/* Mobile View Small */
+@media (max-width: 320px) {
+    /* heaging for sponsors */
+    .small{
+        font-size: 1.3rem;
+    }
+    /* footer */
+    p.footer{
+        font-size: 0.7rem;
+    }
+    /* about */
+    .pad {
+        margin: 3rem 3rem -37px 3rem;
+        text-align: justify;
+    }
+    /* tutors */
+    .shift {
+        margin: 1rem 1rem -23px 1rem;
+    }
+}
+
+/* Tablet View */
+@media (min-width: 481px) and (max-width: 768px) {
+    .board-members .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .board-members .card {
+        padding: 1.25rem;
+    }
+
+    .board-members .card img {
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .board-members .card h3 {
+        font-size: 1.125rem;
+    }
+
+    .board-members .card p {
+        font-size: 1rem;
+    }
+}
+
+/* Desktop View */
+@media (min-width: 769px) {
+    .board-members .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+/* Base styles for payment logos */
+.payment-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+.payment-option input:checked + .payment-logo {
+    border-color: #1d4ed8; /* Change border color when selected */
+}
+
+/* Mobile view (up to 640px wide) */
+@media (max-width: 640px) {
+    .contain {
+        padding: 1.5rem;
+    }
+    .crop{
+        text-align: justify;
+        display: block;
+    }
+
+    /* Base styles for payment logos */
+    .payment-logo {
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+        border: 2px solid transparent;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: border-color 0.3s;
+    }
+
+    .payment-option input:checked + .payment-logo {
+        border-color: #1d4ed8; /* Change border color when selected */
+    }
+
+    /* .text-4xl {
+        font-size: 1rem; Smaller heading
+    } */
+    .heading-main{
+        font-size: 1.3rem; /*  Smaller heading */
+    }
+
+    .p-8 {
+        padding: 1rem; /* Reduce padding in form */
+        margin: 0 0 2rem;
+    }
+
+    .w-full {
+        width: 100%; /* Ensure elements are full width */
+    }
+
+    .p-2 {
+        padding: 0.5rem; /* Less padding for inputs and buttons */
+    }
+    .text-resize {
+        font-size: 1rem; /* Smaller heading */
+    }
+    .description {
+        margin-top: 1rem;
+        font-size: 0.8rem; /* 18px */
+        color: #555; /* A softer color for the description */
+        text-align: center;
+        line-height: 1.5;
+    }
+    .title-logo{
+        height: 2rem;
+        width: 2rem;
+    }
+}
+
+/* Tablet view (641px to 1024px wide) */
+@media (min-width: 641px) and (max-width: 1024px) {
+    .container {
+        padding: 1.5rem;
+    }
+
+    /* Base styles for payment logos */
+    .payment-logo {
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+        border: 2px solid transparent;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: border-color 0.3s;
+    }
+
+    .payment-option input:checked + .payment-logo {
+        border-color: #1d4ed8; /* Change border color when selected */
+    }
+
+    .text-4xl {
+        font-size: 2rem; /* Medium size heading */
+    }
+
+    .p-8 {
+        padding: 1.5rem; /* Medium padding in form */
+    }
+
+    .w-full {
+        width: 90%; /* Slightly reduce form width */
+    }
+
+    .p-2 {
+        padding: 0.75rem; /* Adjust padding for inputs and buttons */
+    }
+}
