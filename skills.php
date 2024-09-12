@@ -23,7 +23,15 @@
             <p class="lg:text-lg crop">Learn the fundamentals of App Development, including creating software for mobile devices, tablets, or computers. These applications are typically designed to run on specific platforms, such as iOS or Android.</p>
         </div>
     </section>
-    
+    <section class="mt-8 flex items-center">
+        <div class="flex-1">
+            <h2 class="text-2xl font-bold mb-4 flex items-center">
+                Digital <span class="text-blue-800 ml-2"> Marketing</span>
+                <img src="images/digital.svg" alt="App Development" class="w-24 h-24 object-cover rounded-lg ml-4 title-logo">
+            </h2>
+            <p class="lg:text-lg crop">Learn the fundamentals of digital marketing, including social media strategies, content creation, and SEO techniques. Build your expertise in driving online engagement and maximizing brand visibility using industry-standard tools like Google Analytics and Facebook Ads Manager.</p>
+        </div>
+    </section>
     <section class="mt-8 flex items-center">
         <div class="flex-1">
             <h2 class="text-2xl font-bold mb-4 flex items-center">
@@ -37,7 +45,7 @@
     <section class="mt-8 flex items-center">
         <div class="flex-1">
             <h2 class="text-2xl font-bold mb-4 flex items-center">
-                Automation / <span class="text-blue-800 ml-2"> ISP</span>
+                Automa<span class="text-blue-800 ml-2">tion</span>
                 <img src="images/automation.svg" alt="Automation" class="w-24 h-24 object-cover rounded-lg ml-4 title-logo">
             </h2>
             <p class="lg:text-lg crop">Explore the world of automation and learn how to design and implement automated systems in various industries. This course is perfect for those interested in robotics and industrial automation.</p>
@@ -51,6 +59,16 @@
                 <img src="images/research.svg" alt="Research Skills" class="w-24 h-24 object-cover rounded-lg ml-4 title-logo">
             </h2>
             <p class="lg:text-lg crop">Gain valuable research skills that will help you excel in academic and professional settings. This course covers research methodology, data analysis, and academic writing.</p>
+        </div>
+    </section>
+
+    <section class="mt-8 flex items-center">
+        <div class="flex-1">
+            <h2 class="text-2xl font-bold mb-4 flex items-center">
+                Video <span class="text-blue-800 ml-2">Editing</span>
+                <img src="images/video.svg" alt="Automation" class="w-24 h-24 object-cover rounded-lg ml-4 title-logo">
+            </h2>
+            <p class="lg:text-lg crop">Explore the essentials of video editing, from cutting and sequencing to adding effects and transitions. Enhance your storytelling skills and produce professional-quality videos using industry-standard tools like Adobe Premiere Pro and Final Cut Pro.</p>
         </div>
     </section>
 </main>

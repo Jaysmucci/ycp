@@ -2,18 +2,11 @@
 const menuBtn = document.getElementById('menu-btn');
 const asideBar = document.getElementById('sidebar');
 const closeSide = document.getElementById('close-sidebar');
-const sumButton = document.getElementById("submitBtn");
 
 
 // Get the button
 var scrollToTopBtn = document.getElementById("scrollToTopBtn");
 
-
-// disable submit button
-sumButton.addEventListener("click", (e) => {
-    e.preventDefault();
-    alert("page still in development")
-})
 
 // open sidebar
 menuBtn.addEventListener('click', () =>{

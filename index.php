@@ -11,8 +11,8 @@
                             <h1 class="text-4xl font-bold heading-main">Welcome to YCP Skills Program</h1>
                             <p class="text-lg mt-4">Empowering young professionals through skill development.</p>
                             <div class="mt-8">
-                                <a href="about" class="bg-white text-blue-800 px-4 py-2 rounded hover:bg-gray-300">Get Started</a>
-                                <a href="payment" class="bg-white text-blue-800 px-4 py-2 rounded hover:bg-gray-300 ml-4">Join Now</a>
+                                <a href="about" class="bg-white text-blue-800 px-4 py-2 rounded hover:bg-gray-300 button-small">Get Started</a>
+                                <a href="payment" class="bg-white text-blue-800 px-4 py-2 rounded hover:bg-gray-300 ml-4 button-small">Join Now</a>
                             </div>
                         </div>
                     </div>
@@ -22,8 +22,8 @@
                             <h1 class="text-4xl font-bold heading-main">Learn from the Best</h1>
                             <p class="text-lg mt-4">Join our expert-led courses today.</p>
                             <div class="mt-8">
-                                <a href="about" class="bg-white text-blue-800 px-4 py-2 rounded hover:bg-gray-300">Get Started</a>
-                                <a href="payment" class="bg-white text-blue-800 px-4 py-2 rounded hover:bg-gray-300 ml-4">Join Now</a>
+                                <a href="about" class="bg-white text-blue-800 px-4 py-2 rounded hover:bg-gray-300 button-small">Get Started</a>
+                                <a href="payment" class="bg-white text-blue-800 px-4 py-2 rounded hover:bg-gray-300 ml-4 button-small">Join Now</a>
                             </div>
                         </div>
                     </div>
@@ -33,8 +33,8 @@
                             <h1 class="text-4xl font-bold heading-main">Achieve Your Goals</h1>
                             <p class="text-lg mt-4">Take the next step in your career with YCP Skills.</p>
                             <div class="mt-8">
-                                <a href="about" class="bg-white text-blue-800 px-4 py-2 rounded hover:bg-gray-300">Get Started</a>
-                                <a href="payment" class="bg-white text-blue-800 px-4 py-2 rounded hover:bg-gray-300 ml-4">Join Now</a>
+                                <a href="about" class="bg-white text-blue-800 px-4 py-2 rounded hover:bg-gray-300 button-small">Get Started</a>
+                                <a href="payment" class="bg-white text-blue-800 px-4 py-2 rounded hover:bg-gray-300 ml-4 button-small">Join Now</a>
                             </div>
                         </div>
                     </div>
@@ -51,55 +51,55 @@
             <div class="grid m-6">
                 <!-- Board Member 1 -->
                 <div class="card text-center">
-                    <img src="images/pic-1.jpg" alt="member-1">
+                    <img src="https://placehold.co/400" alt="member-1" oncontextmenu="return false;">
                     <h3>Andrew Okeke</h3>
                     <p>YCP President</p>
                 </div>
                 <!-- Board Member 2 -->
                 <div class="card">
-                    <img src="images/pic-2.jpg" alt="member-2">
+                    <img src="https://placehold.co/400" alt="member-2" oncontextmenu="return false;">
                     <h3>Ezenwammadu Rose</h3>
                     <p>Vice President</p>
                 </div>
                 <!-- Board Member 3 -->
                 <div class="card">
-                    <img src="images/pic-3.jpg" alt="member-3">
+                    <img src="https://placehold.co/400" alt="member-3" oncontextmenu="return false;">
                     <h3>Vitalian Ozoemena</h3>
                     <p>Gen Secretary</p>
                 </div>
                 <!-- Board Member 4 -->
                 <div class="card">
-                    <img src="images/pic-4.jpg" alt="member-4">
+                    <img src="https://placehold.co/400" alt="member-4" oncontextmenu="return false;">
                     <h3>Stella Odo</h3>
                     <p>Fin Secretary</p>
                 </div>
                 <!-- Board Member 5 -->
                 <div class="card">
-                    <img src="images/pic-5.jpg" alt="member-5">
+                    <img src="https://placehold.co/400" alt="member-5" oncontextmenu="return false;">
                     <h3>Onwugbuka Arinze</h3>
                     <p>Public Relation Officer</p>
                 </div>
                 <!-- Board Member 6 -->
                 <div class="card">
-                    <img src="images/pic-6.jpg" alt="member-6">
+                    <img src="https://placehold.co/400" alt="member-6" oncontextmenu="return false;">
                     <h3>Afamefuna Joyce</h3>
                     <p>Diretor of Social</p>
                 </div>
                 <!-- Board Member 7 -->
                 <div class="card">
-                    <img src="images/pic-7.jpg" alt="member-7">
+                    <img src="https://placehold.co/400" alt="member-7" oncontextmenu="return false;">
                     <h3>Anijah Chinaza</h3>
                     <p>Assist. Secretary</p>
                 </div>
                 <!-- Board Member 8 -->
                 <div class="card">
-                    <img src="images/pic-8.jpg" alt="member-8">
+                    <img src="https://placehold.co/400" alt="member-8" oncontextmenu="return false;">
                     <h3>Udoji Henry</h3>
                     <p>DOS 2</p>
                 </div>
                 <!-- Board Member 9 -->
                 <div class="card">
-                    <img src="images/pic-9.jpeg" alt="member-8">
+                    <img src="https://placehold.co/400" alt="member-8" oncontextmenu="return false;">
                     <h3>Mrs. Kosi Ojukwu</h3>
                     <p>Chairperson</p>
                 </div>
@@ -139,7 +139,7 @@
         <!-- Our sponsors -->
         <section id="sponsors" class="py-16 bg-gray-200 text-center transition-transform transform">
             <div class="container mx-auto">
-                <h2 class="text-3xl font-bold mb-4 md:text-2xl xs:text-sm sm:text-2xl small">Proudly <span style="color: #1e40af;">Sponsored By</span></h2>
+                <h2 class="text-3xl font-bold mb-4 md:text-2xl xs:text-sm sm:text-2xl small">Powered <span style="color: #1e40af;"> By</span></h2>
                 <div class="flex justify-center items-center flex-wrap">
                     <!-- Sponsor Logo -->
                     <div class="m-4">
@@ -159,6 +159,9 @@
                     </div>
                     <div class="m-4">
                         <img src="images/aguatac.png" alt="Sponsor 1" class="h-20 transition-transform transform hover:scale-105">
+                    </div>
+                    <div class="m-4">
+                        <img src="images/fides.png" alt="Sponsor 1" class="h-20 transition-transform transform hover:scale-105">
                     </div>
                     <!-- Repeat Sponsor Logos as needed -->
                 </div>
